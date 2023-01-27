@@ -1,0 +1,29 @@
+.responsive-img {
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+  }
+  
+hr {
+    border-bottom: 6px solid white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.last-update {
+    margin: 5px 0 20px;
+  }
+  .conetnt {
+    margin: 20px 0;
+  }
+  .row{background-color: white;
+    padding-bottom: 1%;
+   
+  }
+
+ 
