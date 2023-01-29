@@ -28,6 +28,10 @@ h1 {
   padding-bottom: 1%;
 }
 
+.what{
+  padding-bottom: 3%;
+}
+
 #video-item-container {
   display: flex;
   flex-wrap: wrap;
