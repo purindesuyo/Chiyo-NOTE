@@ -32,6 +32,11 @@ h1 {
   padding-bottom: 3%;
 }
 
+.cute{
+  padding-top: 10%;
+ 
+}
+
 #video-item-container {
   display: flex;
   flex-wrap: wrap;
@@ -52,4 +57,66 @@ h1 {
 
 .video-item > img, iframe {
   border-radius: 15px;
+}
+
+.pic2{
+  width: 591px;
+  height: 443px;
+  border-radius: 15px;
+
+}
+
+.pic3{
+  width: 640px;
+  height: 350px;
+  border-radius: 15px;
+
+}
+
+.pic4 {
+  width: 503px;
+  height: 520px;
+  border-radius: 15px;
+
+}
+
+.pic5{
+  border-radius: 15px;
+}
+
+.pic6{
+  width: 383px;
+  height: 682px;
+  border-radius: 15px;
+}
+
+.pic7{
+  width: 443px;
+  height: 591px;
+  border-radius: 15px;
+}
+
+.pic8{
+  width: 443px;
+  height: 590px;
+  border-radius: 15px;
+}
+
+.card{
+  width: 682px;
+  height: 384px;
+  border-radius: 15px;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
+.cutest{
+  padding-bottom: 3%;
 }
