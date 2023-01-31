@@ -1,6 +1,6 @@
 .responsive-img {
-  width: 600px;
-  height: 350px;
+  width: 600vw;
+  height: 350vh;
   border-radius: 15px;
 }
 
@@ -61,51 +61,53 @@ h1 {
 }
 
 .pic2{
-  width: 591px;
-  height: 443px;
+  width: 91vh;
+  height: 68vh;
   border-radius: 15px;
 
 }
 
 .pic3{
-  width: 640px;
-  height: 350px;
+  width: 99vh;
+  height: 54vh;
   border-radius: 15px;
 
 }
 
 .pic4 {
-  width: 503px;
-  height: 520px;
+  width: 77vh;
+  height: 80vh;
   border-radius: 15px;
 
 }
 
 .pic5{
+  width: 82vh;
+  height: 103vh;
   border-radius: 15px;
 }
 
 .pic6{
-  width: 383px;
-  height: 682px;
+  width: 59vh;
+  height: 105vh;
   border-radius: 15px;
 }
 
 .pic7{
-  width: 443px;
-  height: 591px;
+  width: 68vh;
+  height: 91vh;
   border-radius: 15px;
 }
 
 .pic8{
-  width: 443px;
-  height: 590px;
+  width: 68vh;
+  height: 91vh;
   border-radius: 15px;
 }
 
 .card{
-  width: 682px;
-  height: 384px;
+  width: 105vh;
+  height: 59vh;
   border-radius: 15px;
 }
 body {
