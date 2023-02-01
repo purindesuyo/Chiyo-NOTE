@@ -4,6 +4,10 @@
   border-radius: 15px;
 }
 
+.container{
+  width: 90vw;
+}
+
 hr {
   border-bottom: 6px solid white;
   border-top: none;
@@ -68,8 +72,8 @@ h1 {
 }
 
 .pic3{
-  width: 99vh;
-  height: 54vh;
+  width:105vh;
+  height: 59vh;
   border-radius: 15px;
 
 }
