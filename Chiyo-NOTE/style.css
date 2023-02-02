@@ -64,56 +64,7 @@ h1 {
   border-radius: 15px;
 }
 
-.pic2{
-  width: 91vh;
-  height: 68vh;
-  border-radius: 15px;
 
-}
-
-.pic3{
-  width:105vh;
-  height: 59vh;
-  border-radius: 15px;
-
-}
-
-.pic4 {
-  width: 77vh;
-  height: 80vh;
-  border-radius: 15px;
-
-}
-
-.pic5{
-  width: 82vh;
-  height: 103vh;
-  border-radius: 15px;
-}
-
-.pic6{
-  width: 59vh;
-  height: 105vh;
-  border-radius: 15px;
-}
-
-.pic7{
-  width: 68vh;
-  height: 91vh;
-  border-radius: 15px;
-}
-
-.pic8{
-  width: 68vh;
-  height: 91vh;
-  border-radius: 15px;
-}
-
-.card{
-  width: 105vh;
-  height: 59vh;
-  border-radius: 15px;
-}
 body {
   display: flex;
   min-height: 100vh;
@@ -126,4 +77,10 @@ main {
     
 .cutest{
   padding-bottom: 3%;
+}
+
+@media only screen and (max-width: 992px) {
+  .col.s12.m6 {
+    width: 100%;
+  }
 }
