@@ -1,12 +1,44 @@
+h2 {
+  overflow-wrap: anywhere;
+}
+
 .responsive-img {
-  width: 600vw;
-  height: 350vh;
   border-radius: 15px;
 }
 
-.container{
-  width: 90vw;
+.container {
+  width:90vw !important;
+ }
+
+.video-item {
+  width: calc(90vw - 10px);
+  height: calc((90vw - 10px) / 16 * 9);
+  margin: 10px 5px 0 5px;
 }
+
+ @media only screen and (min-width: 601px) {
+  .container {
+    width:85vw !important;
+  }
+
+  .video-item {
+    width: calc(85vw - 10px);
+    height: calc((85vw - 10px) / 16 * 9);
+  }
+ }
+
+ @media only screen and (min-width: 993px) {
+  .container {
+    width:70vw !important;
+  }
+
+  .video-item {
+    width: calc(35vw - 10px);
+    height: calc((35vw - 10px) / 16 * 9);
+    max-width: 630px;
+    max-height: 354.375px;
+  }
+ }
 
 hr {
   border-bottom: 6px solid white;
@@ -48,16 +80,12 @@ h1 {
   justify-content: center;
 }
 
-.video-item {
-  width: 630px;
-  height: calc(630px / 16 * 9);
-  margin: 10px 5px 0 5px;
-}
-
 .video-item > img {
   width: inherit;
   height: inherit;
   cursor: pointer;
+  max-width: inherit;
+  max-height: inherit;
 }
 
 .video-item > img, iframe {
@@ -83,4 +111,11 @@ main {
   .col.s12.m6 {
     width: 100%;
   }
+}
+
+#trainer-card {
+  border-top-left-radius: 2% 3.5%;
+  border-top-right-radius: 2% 3.5%;
+  border-bottom-left-radius: 2% 3.5%;
+  border-bottom-right-radius: 2% 3.5%;
 }
