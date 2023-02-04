@@ -119,3 +119,22 @@ main {
   border-bottom-left-radius: 2% 3.5%;
   border-bottom-right-radius: 2% 3.5%;
 }
+
+.pic2{
+  max-width: 383px;
+  max-height:682px;
+}
+
+.pic3{
+  max-width: 443px;
+  max-height: 591px;
+}
+
+.pic4{
+  max-width: 443px;
+  max-height: 590px;
+}
+
+.vw {
+  font-size: 5vw;
+}
